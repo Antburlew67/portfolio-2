@@ -5,27 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link row="stylesheet" href="style.css">
   </head>
   <body>
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-     <a class="navbar-brand" href="#">
-      <img src="Black and Cream Colorful Retro Vintage Apparel Logo.png" alt="Bootstrap" width="30" height="24">
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="#">Features</a>
-        <a class="nav-link" href="#">Pricing</a>
-        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-      </div>
+<nav class="navbar navbar-expand-lg" style="background-color: #000000;" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="Black and Cream Colorful Retro Vintage Apparel Logo.png" alt="Bootstrap" width="100" height="100">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home"><button type="button"
+                                class="btn btn-success">Home</button></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-me"><button type="button" class="btn btn-success">About Me</button></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects"><button type="button" class="btn btn-success">Projects</button></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+   <title>home</title>
+  <section id="home">
+    <h1>Hi this is Anthony welcome to my portfolio.</h1>
+  </section>
+ <title>about me</title>
+  <section id="about me">
+    <img src="img/unnamed.jpg" class="img-1">
+  </section>
+
+ <title>project</title>
+  <section id="project">
+   <div class="row">
+    <div class="col-4">
+    <div class="card" style="width: 18rem;">
+  <img src="img/Screenshot 2026-01-16 085946.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-1">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
     </div>
   </div>
-</nav>
-  
+   </div>
+    <div class="card" style="width: 18rem; height:20rem">
+  <img src="img/Screenshot 2026-01-16 090153.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+
+</div>
+  </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   </body>
 </html>
